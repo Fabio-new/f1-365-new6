@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>F1 365 | Formula 1 365 giorni l'anno</title>
+<meta name="description" content="F1 365 - Tutto il mondo della Formula 1, 365 giorni l'anno.">
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#050505;color:#fff;font-family:Arial,Helvetica,sans-serif}
+.home{width:100%;min-height:100vh;background:#050505;display:flex;flex-direction:column;align-items:center}
+.visual{position:relative;width:min(1672px,100vw);line-height:0}
+.visual img{display:block;width:100%;height:auto}
+.link{position:absolute;top:83.7%;height:13.8%;display:block;z-index:5}
+.l-home{left:1.2%;width:9.2%}.l-news{left:11.2%;width:9.0%}.l-calendar{left:20.2%;width:13.5%}
+.l-results{left:33.7%;width:11.8%}.l-standings{left:45.5%;width:13.0%}.l-drivers{left:58.5%;width:10.2%}
+.l-teams{left:68.7%;width:10.5%}.l-video{left:79.2%;width:9.5%}.l-live{left:88.7%;width:10.8%}
+.link:focus{outline:3px solid #fff;outline-offset:-3px}
+.fallback-nav{width:min(1100px,94%);display:flex;gap:8px;flex-wrap:wrap;justify-content:center;padding:18px 0 30px}
+.fallback-nav a{background:#111;border:1px solid #333;color:#fff;padding:10px 14px;border-radius:7px;text-decoration:none;font-weight:800;font-size:13px}
+.fallback-nav a:hover{background:#e10600;border-color:#e10600}
+.note{font-size:12px;color:#777;text-align:center;padding:0 15px 24px}
+@media(max-width:700px){
+ .link{top:81.5%;height:16%}
+ .fallback-nav{padding-top:12px}
+}
+</style>
+</head>
+<body>
+<main class="home">
+  <div class="visual">
+    <img src="home-reference.png" alt="F1 365 - Tutto il mondo della Formula 1, 365 giorni l'anno.">
+    <a class="link l-home" href="index.html" aria-label="Home"></a>
+    <a class="link l-news" href="news.html" aria-label="News"></a>
+    <a class="link l-calendar" href="calendar.html" aria-label="Calendario"></a>
+    <a class="link l-results" href="results.html" aria-label="Risultati"></a>
+    <a class="link l-standings" href="standings.html" aria-label="Classifiche"></a>
+    <a class="link l-drivers" href="drivers.html" aria-label="Piloti"></a>
+    <a class="link l-teams" href="teams.html" aria-label="Team"></a>
+    <a class="link l-video" href="video.html" aria-label="Video"></a>
+    <a class="link l-live" href="live.html" aria-label="F1 Live"></a>
+  </div>
+  <nav class="fallback-nav" aria-label="Navigazione principale">
+    <a href="index.html">HOME</a><a href="news.html">NEWS</a><a href="calendar.html">CALENDARIO</a>
+    <a href="results.html">RISULTATI</a><a href="standings.html">CLASSIFICHE</a><a href="drivers.html">PILOTI</a>
+    <a href="teams.html">TEAM</a><a href="video.html">VIDEO</a><a href="live.html">F1 LIVE</a>
+  </nav>
+  <div class="note">F1 365 • Fan site indipendente • Tutti i collegamenti della Home sono link HTML reali.</div>
+</main>
+</body>
+</html>
